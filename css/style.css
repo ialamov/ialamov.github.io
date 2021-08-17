@@ -1,13 +1,3 @@
-/*
-background-color: linear-gradient(to bottom right, #3e354d, #d389c1)
-.color1 {color: #3e354d;}
-.color2 {color: #5c4467;}
-.color3 {color: #905f8c;}
-.color4 {color: #d389c1;}
-.color5 {color: #e2aee2;}
-*/
-
-
 body {
   background-color: #bdbdbd;
   font-family: Helvetica, sans-serif;
@@ -21,6 +11,8 @@ h1 {
   font-family: fantasy, sans-serif;
   padding: 5px;
   font-size: 2em;
+  border-bottom-style: dotted;
+  padding: 20px;
 }
 
 .skillsInDisplay {

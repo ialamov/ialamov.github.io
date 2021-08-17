@@ -1,0 +1,63 @@
+/*
+background-color: linear-gradient(to bottom right, #3e354d, #d389c1)
+.color1 {color: #3e354d;}
+.color2 {color: #5c4467;}
+.color3 {color: #905f8c;}
+.color4 {color: #d389c1;}
+.color5 {color: #e2aee2;}
+*/
+
+
+body {
+  background-color: #bdbdbd;
+  font-family: Helvetica, sans-serif;
+  padding: 5px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: fantasy, sans-serif;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.skillsInDisplay {
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+  font-weight: bolder;
+}
+
+.menu {
+  display: inline-block;
+  text-align: center;
+  padding-inline: 50px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: left;
+  font-weight: bold;
+  font-family: Tahoma, sans-serif;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.personal-information {
+  text-align: center;
+  font-size: 0.5em;
+  font-style: italic;
+}
+
+p {
+  padding-inline: 20px;
+}

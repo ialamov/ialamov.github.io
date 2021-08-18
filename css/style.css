@@ -1,5 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: #bdbdbd;
+  
+  background-size: 100%;
   font-family: Helvetica, sans-serif;
   padding: 5px;
   font-size: 20px;
@@ -15,41 +21,69 @@ h1 {
   padding: 20px;
 }
 
-.skillsInDisplay {
-  text-align: center;
-  font-style: italic;
+.photo-and-text {
+  display: inline-block;
+  background-color: rgba(58, 58, 58);
+  color: white;
+
+}
+
+.about-me-skills {
+  background-image: url("/images/29102017-IMG_3033.jpg");
+  background-size: cover;
+  padding: 30px;
+}
+
+.about-me-skills div {
+  text-align: left;
   padding: 20px;
+
+}
+
+.skillsInDisplay {
+  max-width: 100%;
+  text-align: right;
+  font-style: italic;
+  padding: 5px;
   font-weight: bolder;
 }
 
 .menu {
   display: inline-block;
   text-align: center;
-  padding-inline: 50px;
+  padding-inline: 10px;
   font-style: italic;
+  font-size: 15px;
+}
+
+.upperText div {
+  position:absolute;
+  text-align: center;
 }
 
 h3 {
   text-align: left;
   font-weight: bold;
   font-family: Tahoma, sans-serif;
-  padding: 20px;
   font-size: 1.5em;
 }
 
 .foto {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 60px;
   width: 200px;
+  margin-top: 40px;
+  margin-bottom: 5px;
 }
 
 .personal-information {
-  text-align: center;
+  text-align: left;
   font-size: 0.5em;
   font-style: italic;
+  margin-bottom: 40px;
+  padding: 0 20px;
 }
 
-p {
-  padding-inline: 20px;
+.skills {
+  padding: 20px;
 }

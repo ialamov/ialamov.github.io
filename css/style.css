@@ -52,6 +52,30 @@ main {
   padding: 6px;
 }
 
+.personal-information {
+  text-align: center;
+  font-size: 0.5em;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+article {
+  display: inline-block;
+  width: 60%;
+  padding: 30px;
+  font-size: 0.8em;
+  line-height: 30px;
+  background-color: rgb(153,178,183);
+  border-radius: 20px;
+}
+
+.box {
+  position: relative;
+  box-shadow:  rgb(148,140,117);
+  border-radius: 20px;
+  grid-area: 1/ 1/ 2 / 2;
+}
+
 .about-me-skills {
   background-size: cover;
   width: 50%;
@@ -75,21 +99,16 @@ h3 {
   display: block;
   margin-left: 60px;
   width: 200px;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 5px;
   border-radius: 30px;
+  box-shadow: 40px 15px rgb(122,106,83);
 }
 
-.personal-information {
-  text-align: left;
-  font-size: 0.5em;
-  font-style: italic;
-  margin-bottom: 40px;
-  padding: 0 20px;
-}
+
 
 .skills {
   padding: 20px;
+  background-image: url("/images/29102017-IMG_3033.jpg");
 }
 
-background-image: url("/images/29102017-IMG_3033.jpg");

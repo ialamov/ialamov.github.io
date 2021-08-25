@@ -4,57 +4,60 @@
 }
 
 body {
-  
   background-size: 100%;
+  background-color: rgba(213,222,217);
+  color: rgb(44, 44, 44);
   font-family: Helvetica, sans-serif;
-  padding: 5px;
   font-size: 20px;
+  line-height: 40px;
+}
+
+header {
+  background-color: rgb(217,206,178);
+  position: fixed;
+  width: 100%;
 }
 
 h1 {
-  text-align: center;
+  text-align: right;
   font-weight: bold;
   font-family: fantasy, sans-serif;
-  padding: 5px;
-  font-size: 2em;
-  border-bottom-style: dotted;
+  padding: 30px, 30px;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.menu {
+  font-style: italic;
+  display: inline-block;
   padding: 20px;
+  font-size: 0.9em;
+  width: 60%;
+}
+
+.menu li {
+  display: inline-block;
+  padding-inline: 10px;
+}
+
+main {
+  padding: 50px;
 }
 
 .photo-and-text {
   display: inline-block;
-  background-color: rgba(58, 58, 58);
-  color: white;
-
+  color: rgb(95, 95, 95);
+  width: 33%;
+  text-align: center;
+  padding: 6px;
 }
 
 .about-me-skills {
-  background-image: url("/images/29102017-IMG_3033.jpg");
   background-size: cover;
-  padding: 30px;
-}
-
-.about-me-skills div {
-  text-align: left;
-  padding: 20px;
-
-}
-
-.skillsInDisplay {
-  max-width: 100%;
-  text-align: right;
-  font-style: italic;
-  padding: 5px;
-  font-weight: bolder;
-}
-
-.menu {
+  width: 50%;
   display: inline-block;
-  text-align: center;
-  padding-inline: 10px;
-  font-style: italic;
-  font-size: 15px;
 }
+
 
 .upperText div {
   position:absolute;
@@ -74,6 +77,7 @@ h3 {
   width: 200px;
   margin-top: 40px;
   margin-bottom: 5px;
+  border-radius: 30px;
 }
 
 .personal-information {
@@ -87,3 +91,5 @@ h3 {
 .skills {
   padding: 20px;
 }
+
+background-image: url("/images/29102017-IMG_3033.jpg");

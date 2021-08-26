@@ -18,7 +18,7 @@ body h1 {
   padding: 40px;
   font-weight: bold;
   text-align: left;
-  font-family: fantasy;
+  font-family: Robot, sans-serif;
   float: left;
   color: #F2F2F2;
 }
@@ -108,8 +108,9 @@ p, li {
 .self {
   height: 300px;
   border-radius: 2em;
-  padding: 30px;
   display: inline;
+  box-shadow: inset 0 0 1em #898C6D, 0 0 1em #F2F2F2;
+  margin-left: 40px ;
 }
 
 aside ul {
@@ -129,8 +130,29 @@ section {
   border-radius: 2em;
 }
 
+#projects {
+  height: 100px;
+}
+
+.professionalSkills {
+  color: #F2F2F2;
+  padding: 30px;
+}
+
 footer {
   background-color: #262626;
   color: #F2F2F2;
   text-align: center;
+}
+
+footer img {
+  height: 20px;
+}
+
+footer li {
+  color: #F2F2F2;
+}
+
+footer p {
+  font-size: 0.6em;
 }

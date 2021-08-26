@@ -1,0 +1,33 @@
+<main>
+      <div class="photo-and-text">   
+        <img class="foto" src="/images/WhatsApp Image 2021-03-02 at 15.09.07.jpeg" alt="Foto pessoal">
+        <p class="personal-information">Brazilian developer from Jaraguá do Sul, State of Santa Catarina</p>
+      </div>
+         <div class="box">
+            <div>
+            </div>
+          </div>
+      <article class="about-me-skills">
+        <h3 id="About">About me</h3>
+          <p>I am happely married and I currently live in Brazil. I used to be a lawyer, carrear of ten (10) year and also I have worked as a translator between portuguese and english, but now I am studying to be a developer at the fantastic programming school Trybe and SENAI. <br>
+          Due to an extense study in law and translation throughout the years, I have developed a wide range of usefull skills, specilialy social skills. I am communicative, an enthusiasthic about new projects, I have a really good grammar and great communication skills.</p>
+      </article>
+        <aside>
+          <img class="foto_escocia" src="/images/29102017-IMG_3033.jpg" alt="Estrada na Escócia">
+          <h3 id="Skills">Skills</h3>
+          <ul>
+            <li>Communicative</li>
+            <li>Wide capacity to learn new skills</li>
+            <li>Good grammar</li>
+            <li>Sharp social skills</li>
+            <li>Pragmatic</li>
+            <li>Excellent resercher</li>
+          </ul>
+        </div>
+    <h3 id="project">Projects</h3>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>

@@ -5,110 +5,43 @@
 
 body {
   background-size: 100%;
-  background-color: rgba(213,222,217);
-  color: rgb(44, 44, 44);
-  font-family: Helvetica, sans-serif;
+  background-color: #F2F2F2;
+  color: #262626;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
   font-size: 20px;
   line-height: 40px;
 }
 
-header {
-  background-color: rgb(217,206,178);
-  position: fixed;
-  width: 100%;
-}
-
-h1 {
-  text-align: right;
-  font-weight: bold;
-  font-family: fantasy, sans-serif;
-  padding: 30px, 30px;
-  font-size: 1em;
-  display: inline-block;
-}
-
-.menu {
+.menu ul {
+  background-color: #7E8C61;
+  position: -webkit-sticky;
   font-style: italic;
-  display: inline-block;
   padding: 20px;
   font-size: 0.9em;
-  width: 60%;
+  width: 100%;
+  text-align: right;
 }
 
 .menu li {
   display: inline-block;
   padding-inline: 10px;
-}
-
-main {
-  padding: 50px;
-}
-
-.photo-and-text {
-  display: inline-block;
-  color: rgb(95, 95, 95);
-  width: 33%;
-  text-align: center;
-  padding: 6px;
-}
-
-.personal-information {
-  text-align: center;
-  font-size: 0.5em;
-  font-style: italic;
-  margin-top: 10px;
-}
-
-article {
-  display: inline-block;
-  width: 60%;
-  padding: 30px;
+  margin-right: 20px;
   font-size: 0.8em;
-  line-height: 30px;
-  background-color: rgb(153,178,183);
-  border-radius: 20px;
 }
 
-.box {
-  position: relative;
-  box-shadow:  rgb(148,140,117);
-  border-radius: 20px;
-  grid-area: 1/ 1/ 2 / 2;
-}
-
-.about-me-skills {
+.banner {
+  background-image: url(/images/IMG_2870.JPG);
   background-size: cover;
-  width: 50%;
-  display: inline-block;
-}
-
-
-.upperText div {
-  position:absolute;
-  text-align: center;
-}
-
-h3 {
-  text-align: left;
-  font-weight: bold;
-  font-family: Tahoma, sans-serif;
-  font-size: 1.5em;
-}
-
-.foto {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
   display: block;
-  margin-left: 60px;
-  width: 200px;
-  margin-top: 60px;
-  margin-bottom: 5px;
-  border-radius: 30px;
-  box-shadow: 40px 15px rgb(122,106,83);
 }
 
-
-
-.skills {
-  padding: 20px;
-  background-image: url("/images/29102017-IMG_3033.jpg");
+h1 {
+  text-align: left;
+  background-color: #F2F2F2;
+  display: absolute;
 }
-

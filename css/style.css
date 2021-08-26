@@ -4,21 +4,37 @@
 }
 
 body {
-  background-size: 100%;
   background-color: #F2F2F2;
   color: #262626;
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
   line-height: 40px;
 }
 
-.menu ul {
+body h1 {
+  font-size: 30px;
   background-color: #262626;
-  position: -webkit-sticky;
+  margin-top: 40px;
+  padding: 40px;
+  font-weight: bold;
+  text-align: left;
+  font-family: fantasy;
+  float: left;
+  color: #F2F2F2;
+}
+
+.menu {
+  background-color: #262626;
+  position: sticky;
   font-style: italic;
   font-size: 0.9em;
   width: 100%;
   text-align: right;
+}
+
+.menu:hover:after {
+  text-decoration:#898C6D;
+  transform: scale(2);
 }
 
 .menu li {
@@ -29,16 +45,6 @@ body {
   color: #F2F2F2;
 }
 
-h1 {
-  text-align: left;
-  display: absolute;
-  font-family: fantasy;
-  font-size: 0.9em;
-  float: left;
-  color: #F2F2F2;
-  padding: 10px;
-  font-weight: bold;
-}
 .banner {
   background-image: url(/images/IMG_2870.JPG);
   background-size: cover;
@@ -55,17 +61,19 @@ main {
   margin: 20px;
 }
 
-h2 {
-  font-size: 1.2em;
+h2, h3 {
+  font-size: 1.5em;
   color: #F2F2F2;
   font-weight: bold;
+  font-family: fantasy, sans-serif;
+  padding: 20px;
 }
 
-p {
-  font-size: 0.6em;
+p, li {
+  font-size: 1em;
 }
 
-.road {
+.road, aside {
   background-color:#262626;
   color: #F2F2F2;
   padding: 20px;
@@ -73,7 +81,18 @@ p {
   border-radius: 2em;
   box-shadow: 20px -15px #898C6D;
   display: inline-block;
-  width: 50%;
+}
+
+.road {
+  width: 70%;
+}
+
+.road img {
+  width: 45%;
+  margin: 20px;
+  display: inline;
+  margin-left: 280px;
+  box-shadow: inset 0 0 1em #898C6D, 0 0 1em #F2F2F2;
 }
 
 .self.information div {
@@ -82,7 +101,7 @@ p {
   background-color: #262626;
   color: #F2F2F2;
   float: right;
-  width: 35%;
+  width: auto;
   margin-top: 50px;
 }
 
@@ -94,15 +113,24 @@ p {
 }
 
 aside ul {
-  font-size: 0.6em;
   padding: 20px;
   margin: 20px;
 }
 
+.contact {
+  font-size: 1.2em;
+}
+
 section {
-  box-shadow: inset 0 0 1em #898C6D, 0 0 1em #262626;
+  box-shadow: 20px -15px #898C6D;
   background-color: #262626;
   padding: 20px;
   margin: 30px;
   border-radius: 2em;
+}
+
+footer {
+  background-color: #262626;
+  color: #F2F2F2;
+  text-align: center;
 }
